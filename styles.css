@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+.topNavbar{
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 5px; */
+}
+.leftNav{
+    margin-left: 25px;
+}
+.leftNav li{
+    display: inline-block;
+    margin: 10px 7px;
+    
+}
+
+.leftNav a:link{
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+.leftNav a:hover{
+    /* border-bottom: 2px solid black; */
+}
+
+.leftNav a:visited{
+    color: black;
+}
+.rightNav{
+    margin-right: 35px;
+}
+.rightNav i{
+margin: 10px 5px;
+font-size: larger;
+}
+
+nav.navbar1{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+ul.navList{
+    list-style-type: none;
+    /* margin-top: 20px; */
+    float: left;
+}
+li.navItem{
+    display: inline-block;
+    margin: 5px 10px;
+}
+a.ListItem:link{
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+a.ListItem:hover{
+    border-bottom: 2px solid black;
+}
+
+a.ListItem:visited{
+    color: black;
+}
+.LOGO{
+    width: 100px;
+    height: 60px;
+    /* float: left; */
+    padding-top: 9px;
+}
+.customIcon{
+    float: left;
+    margin: 25px 50px 25px 10px;
+}
+.rightIcons{
+    float: right;
+    margin-right: 30px;
+}
+.rightIcons i{
+    margin: 25px 10px;
+
+}
+
+.offers{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url("./assets/headerImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 90px; */
+}
+header div.headerImage{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+}
+div.headerImage button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+/* contactus CSS */
+
+.contactUs{
+    display: flex;
+}
+.addressDiv{
+    color: rgb(30, 29, 29);
+    padding-left: 100px;
+    padding-top: 50px;
+    flex:1
+}
+.mapAddress{
+    flex: 1;
+    padding: 10px;
+}
+.mapAddress iframe{
+    border:0; 
+    width:95%;
+}
+.aboutUs{
+    width: 100%;
+    height: 300px;
+}
